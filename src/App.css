@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.appContent{
+  font-family: Tahoma, sans-serif;
+  color: #9c9c9c;
+  background-color: #f2f1f2;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.contentCard{
+  padding: 0 !important;
+  padding-bottom: 1rem;
+  position: absolute;
+  left: 0;
+  bottom: -2em;
+  width: 100%;
+  padding-top: 1.5em;
+  min-height: 7.2em;
+  transition: bottom .15s ease-out; 
+  margin-bottom: 2rem;
+}
+
+.contact-item-content {
+  background: #fff;
+  border: solid #fff 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.info-row {
+  margin: 5 0;
+  height: 1.1em;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cont{
+  padding: 15px;
+}
+
+ header h3{
+  margin: 0;
+  padding-left: 5% !important;
+  position: inherit;
+}
+
+.input-wrapper {align-self: center;}
+
+.inputGrup{
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.inputSearch{
+  padding:  .5em 1em;
+  border: none;
+  background: #fff;
+  color: #9c9c9c;
+  border-radius: 50px;
+  font-size: 1em;
+}
+
+.search_wrapper{align-self: center;}
+
+.input-wrapper {position: relative;}
+
+.header {
+  padding-right: 5%;
+  color:white;
+  background-color: #20b8ea;
+  height: 70px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.row-header{
+  margin: 0px !important;
+  padding-top:10px;
+  padding-top:15px;
+}
+
+.profileImage{
+  padding-bottom: calc((125 / 129) * 100%);
+  background-position: center top;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #f2f1f2;
+  background-size: cover;
+}
+
+.contact-type {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -38px;
+}
+
+.contact-item{margin-bottom: 2rem;}
+
+.contentCard{ margin-bottom: 2rem;}
+
+.icon {
+  left: -4rem;
+ transform: translateY(-50%);
+  right: .8em;
+  pointer-events: none;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+}
+
+.card{
+  border: rebeccapurple 1px;
+}
